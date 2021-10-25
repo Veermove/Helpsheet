@@ -37,7 +37,7 @@ Remove container:
 $ docker remove my_container
 ```
 
-Remove all containers (all containers must be stopped beforehand):
+Remove **all** containers (all containers must be stopped beforehand):
 ```
 $ docker remove $(docker ps -a -q)
 ```
