@@ -34,12 +34,12 @@ $ docker stop $(docker ps -q)
 Remove container:
 
 ```
-$ docker remove my_container
+$ docker rm my_container
 ```
 
 Remove **all** containers (all containers must be stopped beforehand):
 ```
-$ docker remove $(docker ps -a -q)
+$ docker rm $(docker ps -a -q)
 ```
 
 # Docker-compose
