@@ -24,7 +24,7 @@ $ docker start my_container
 $ docker stop my_container
 ```
 
-Stop **all** containers
+Stop **all** containers:
 ```
 $ docker stop $(docker ps -q)
 ```
@@ -62,13 +62,13 @@ Adds Detached mode: Run containers in the background,
 print new container names.
 
 ## Down
-Stops containers and removes containers, networks, volumes, and images created by `up`
+Stops containers and removes containers, networks, volumes, and images created by `up`:
 ```
 docker-compose down
 ```
 
 ## Start/stop
-Respectivly starts and stops services
+Respectivly starts and stops services:
 ```
 $ docker-compose start
 $ docker-compose stop
