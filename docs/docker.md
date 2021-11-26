@@ -61,6 +61,12 @@ $ docker-compose up -d
 Adds Detached mode: Run containers in the background,
 print new container names.
 
+## Down
+Stops containers and removes containers, networks, volumes, and images created by `up`
+```
+docker-compose down
+```
+
 ## Start/stop
 Respectivly starts and stops services
 ```
